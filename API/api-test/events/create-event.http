@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplbGx5QGhleS5jb20iLCJleHAiOjE3Mjc4MTAyMzgsInVzZXJJZCI6ImE3YzEwZDdiLWQzYzYtNGJlNS1hZjNhLWYyMTcyNjQyMzJhOCIsInVzZXJUeXBlIjoiYWRtaW4ifQ.WXjl9ApF4nbez5QLNjOSJJdoVRqTPrltZLr47xMWo_s
+
+{
+	"Name" : "First event in the park", 
+	"Description" : "Event to meet other devs and get gud.",
+	"Location" : "Austin, TX",
+	"DateTime" : "2024-01-01T15:30:00.000Z"
+}
